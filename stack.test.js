@@ -25,7 +25,7 @@ test('in whatever case } should return true'+stringvalidadecorrect, () => {
         expect(doBracketsBalance(stringvalidadecorrectkeysfull)).toBeTruthy();
         });
 
-        test('in whatever case ({[)]} should return true'+stringvalidadecorrectkeysfullincorrect, () => {
+        test('in whatever case ({[)]} should return false'+stringvalidadecorrectkeysfullincorrect, () => {
             expect(doBracketsBalance(stringvalidadecorrectkeysfullincorrect)).toBeFalsy();
             });
     
